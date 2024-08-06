@@ -61,7 +61,7 @@
 
         h3 {
           position: relative;
-          z-index: 5;
+          z-index: 1;
         }
 
         img {
@@ -75,9 +75,10 @@
 
           @include G.breakpoint("sm") {
             object-position: top;
-            object-fit: cover;
+            object-fit: contain;
             bottom: -60px;
           }
+      
         }
       }
 
