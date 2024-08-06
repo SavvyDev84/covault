@@ -16,7 +16,9 @@ export const OptimizeSection = () => {
             <div className={S.border} >
 
               <div className={S.main}>
+
                 <div className={S.content}>
+
                   <div className={S.title}>
                     <h1>
                       <span className="black xxl semi-bold">Optimize</span>{" "}
@@ -24,6 +26,7 @@ export const OptimizeSection = () => {
                       <span className="black xxl semi-bold">{" "}Intelligent Custody</span>
                     </h1>
                   </div>
+
                   <div className={S.description}>
                     <p className="grey">
                       Staking should be both rewarding and secure. Covault's Staking Vault
@@ -33,6 +36,7 @@ export const OptimizeSection = () => {
                       designed to meet the needs of serious investors.
                     </p>
                   </div>
+
                   <Button
                     onClick={handleContact}
                     title="Start Staking"
@@ -40,11 +44,15 @@ export const OptimizeSection = () => {
                     type="secondary"
                     className={S.btn}
                   />
+
                 </div>
+                
               </div>
+
               <div className={S.image}>
                 <img src={Door} alt="Door" />
               </div>
+
             </div>
           </div>
           <div className={S.position}>

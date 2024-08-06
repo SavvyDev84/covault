@@ -82,6 +82,7 @@ const Header = () => {
                 title="Go to Waitlist"
                 mode="dark"
                 type="primary"
+              
               />
               <Button
                 icon={

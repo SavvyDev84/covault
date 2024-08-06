@@ -12,13 +12,16 @@ export const StreamlineSection = () => {
       <section id="waitlist_section" className={S.body}>
         <div className={S.wrapper}>
           <div className={S.position}>
+
             <div className={S.border} >
 
               <div className={S.image}>
                 <img src={Asset} alt="Asset" />
               </div>
+
               <div className={S.main}>
                 <div className={S.content}>
+
                   <div className={S.title}>
                     <h1>
                       <span className="white xxl semi-bold">Streamline</span>{" "}
@@ -28,6 +31,7 @@ export const StreamlineSection = () => {
                       <span className="white xxl semi-bold">Airdrop Vault</span>
                     </h1>
                   </div>
+                
                   <div className={S.description}>
                     <p className="grey">
                       Distributing rewards can be time-consuming. Covaults Airdrop Vault simplifies
@@ -36,6 +40,7 @@ export const StreamlineSection = () => {
                       secure reward distribution.
                     </p>
                   </div>
+
                 </div>
               </div>
 
@@ -43,7 +48,7 @@ export const StreamlineSection = () => {
             <div className={S.border} >
 
               <div className={S.image}>
-                <div className={S.title}>
+                <div className={S.title} style={{marginLeft:"16px"}}>
                   <h1>
                     <span className="white xxl semi-bold">Intelligent Yield</span>{" "}
                     <span className="grey xxl base semi-bold">generation</span>
