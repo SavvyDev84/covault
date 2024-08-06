@@ -8,7 +8,7 @@ const Container = styled.button<IBasicButtonStyle>`
   ${({ $title }) =>
     $title &&
     css`
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 600;
       // line-height: 100%;
     `}
