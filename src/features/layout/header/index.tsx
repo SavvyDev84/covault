@@ -19,11 +19,15 @@ const Header = () => {
     setMobileMenu(false);
   };
 
-  const handleContact = () => {};
+  const handleContact = () => { };
 
   const handleGoWaitlist = () => {
     navigate("#waitlist_section");
   };
+
+  const handleGoHero = () => {
+    navigate("#about_section");
+  }
 
   useEffect(() => {
     const changeHeaderStyle = () => {
@@ -47,12 +51,15 @@ const Header = () => {
     navigate(collection);
   };
 
+
   return (
     <>
       <header className={S.body} ref={headerRef}>
         <div className={S.wrapper}>
           <div className={S.main}>
-            <img src="./logo.png" alt="logo" />
+            <div onClick={handleGoHero} style={{cursor:"pointer"}}>
+              <img src="./logo.png" alt="logo" />
+            </div>
             <Navbar
               fullWidth={false}
               width={500}
@@ -82,7 +89,7 @@ const Header = () => {
                 title="Go to Waitlist"
                 mode="dark"
                 type="primary"
-              
+
               />
               <Button
                 icon={
