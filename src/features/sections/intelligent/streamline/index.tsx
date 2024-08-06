@@ -72,16 +72,16 @@ export const StreamlineSection = () => {
               </div>
 
             </div>
-            
+            <div style={{marginLeft:"16px"}}>
             <Button
               onClick={handleContact}
               title="Optimize Rewards & yields"
               mode="dark"
               type="primary"
               className={S.btn}
-
+              
             />
-            
+            </div>
           </div>
 
         </div>
