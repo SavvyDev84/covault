@@ -8,6 +8,7 @@ import {
   FAQSection
 } from "@features/sections/intelligent";
 import S from "./index.module.scss";
+import { CtaSection } from "@features/sections/cta";
 
 const IntelligentCustody = () => {
   return (
@@ -18,6 +19,7 @@ const IntelligentCustody = () => {
       <StreamlineSection/>
       <OptimizeSection/>
       <EcosystemSection/>
+      <CtaSection/>
       <FAQSection/>
     </div>
   );

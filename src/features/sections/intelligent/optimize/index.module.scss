@@ -45,8 +45,16 @@
         position: relative;
         display: grid;
         grid-template-columns: auto 1fr;
+        z-index: 5;
         align-items: center;
+        img {
+          justify-self: center;
+        }
 
+        @include G.breakpoint("sm") {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr auto;
+        }
         .main {
           position: relative;
           display: flex;

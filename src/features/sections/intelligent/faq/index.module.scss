@@ -3,37 +3,6 @@
 .body {
   width: 100%;
 
-
-  .diamond {
-    width: 523px;
-    height: 523px;
-    background-image: url("/hero.png");
-    display: grid;
-    place-items: center;
-    background-size: contain;
-
-    @include G.breakpoint("lg") {
-      width: 400px;
-      height: 400px;
-    }
-
-    @include G.breakpoint("md") {
-      justify-self: end;
-    }
-
-    @include G.breakpoint("sm") {
-      width: 327px;
-      height: 327px;
-    }
-
-    img {
-      @include G.breakpoint("sm") {
-        width: 200px;
-        height: 200px;
-      }
-    }
-  }
-
   .wrapper {
     @include G.mainLayout;
 
@@ -101,7 +70,7 @@
           height: 100%;
           position: absolute;
           left: 0;
-          bottom: 0px;
+          bottom: -150px;
           object-position: bottom;
 
           @include G.breakpoint("sm") {

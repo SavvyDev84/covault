@@ -140,14 +140,16 @@
       }
 
       .features {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 24px;
 
         .card {
           display: grid;
           grid-template-rows: auto 1fr;
           gap: 10px;
+          width: 272px;
 
           padding: 16px;
           border-radius: 6px;

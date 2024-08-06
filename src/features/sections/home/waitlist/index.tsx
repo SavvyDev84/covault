@@ -127,7 +127,9 @@ export const WaitlistSection = () => {
   return (
     <>
       <section id="waitlist_section" className={S.body}>
+    
         <div className={S.wrapper}>
+
           <div className={S.position}>
             <div className={S.info}>
               <span className="xl base grey">Secure Your Position</span>
@@ -250,6 +252,7 @@ export const WaitlistSection = () => {
             </div>
 
           </div>
+
           <div className={S.content}>
             <div className={clsx(S.card, S.active)}>
               <HiMiniArrowRightStartOnRectangle
@@ -264,6 +267,7 @@ export const WaitlistSection = () => {
                 Bitcoin Blockchain. We journey together, and together we win.
               </p>
             </div>
+
             <div className={clsx(S.card)}>
               <HiArrowPath size={24} color="var(--black)" />
               <p className="base">
@@ -274,6 +278,7 @@ export const WaitlistSection = () => {
                 informed about our launch activities.
               </p>
             </div>
+
             <div className={clsx(S.card)}>
               <HiOutlineTicket size={24} color="var(--black)" />
               <p className="base">
@@ -284,6 +289,7 @@ export const WaitlistSection = () => {
                 waitlist members.
               </p>
             </div>
+
             <div className={clsx(S.card)}>
               <HiOutlineUserGroup size={24} color="var(--black)" />
               <p className="base">
@@ -295,8 +301,11 @@ export const WaitlistSection = () => {
               </p>
             </div>
           </div>
+          
         </div>
+
       </section>
+
       {openModal && <Modal
         close={close}
         type={modalType}
