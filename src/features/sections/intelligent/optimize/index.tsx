@@ -79,7 +79,7 @@ export const OptimizeSection = () => {
               <div className={S.main}>
                 <div className={S.content}>
                   <div className={S.description} >
-                    <div style={{overflowY:"auto", height:"150px"}}>
+                    <div style={{overflowY:"auto", scrollbarWidth:"none", height:"150px"}}>
                       <div className={clsx(S.card, S.active)} style={{padding:"15px",marginBottom:"20px" ,border:"1px grey solid", borderRadius:"2%"}}>
                         <div className="bold"style={{fontSize:"24px"}}>1</div>
                         <p className="base sm" style={{fontSize:"20px"}}>
