@@ -79,7 +79,7 @@ export const HeroSection = () => {
               <div style={{ direction: "rtl" }}>
                 <Button
                   onClick={handleClick}
-                  title="Syndicate Vault"
+                  title="Covault Protocol"
                   mode="dark"
                   type="primary"
                 />
