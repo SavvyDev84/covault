@@ -4,6 +4,8 @@ import { EcosystemCard } from "@features/ui/ecoCard";
 import { Button } from "@features/ui";
 import { useNavigate } from "react-router-dom";
 // import Eco from "@assets/eco.png";
+import { PiLockKeyFill } from "react-icons/pi";
+
 
 export const EcosystemSection = () => {
   const navigate=useNavigate();
@@ -29,8 +31,9 @@ export const EcosystemSection = () => {
             ))}
           </div>
           <div className={S.banner}>
+
             <h3 className="grey xxl">
-               <span className="white semi-bold">Build advanced</span><br></br>
+               <span className="white semi-bold"><PiLockKeyFill size={30} color="var(--yellow)"/> Build advanced</span><br></br>
                economies with{" "}
               <span className="white semi-bold">Intelligent Custody</span>
             </h3>
