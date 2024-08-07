@@ -11,7 +11,7 @@ export const StreamlineSection = () => {
             <div>
 
               <div className={S.border}>
-                <div className={S.main} style={{display:"flex", justifyContent:"center", alignItems:"center", gap:"50px"}}>
+                <div className={S.main} style={{display:"grid", justifyContent:"center", alignItems:"center", gap:"50px"}}>
                   <div className={S.image}>
                     <img src={Asset} alt="Asset" />
                   </div>
@@ -42,13 +42,13 @@ export const StreamlineSection = () => {
 
               <div className={S.border} >
 
-                <div className={S.main1} style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+                <div className={S.main1} style={{display:"grid", justifyContent:"center", alignItems:"center"}}>
 
                   <div className={S.title}>
                     <h1>
                       <span className="grey xxl base semi-bold">Airdrop Vault also provide a way to</span>
                       <br></br>
-                      <span className="white xxl base semi-bold">sell a basket of <br></br>future tokens.</span>
+                      <span className="white xxl base semi-bold">sell a basket of future tokens.</span>
                     </h1>
                   </div>
 
