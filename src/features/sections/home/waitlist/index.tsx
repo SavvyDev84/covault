@@ -134,7 +134,8 @@ export const WaitlistSection = () => {
             <div className={S.info}>
               <span className="xl base grey">Secure Your Position</span>
               <h3 className="black xxl semi-bold">
-                Join the Waitlist <span className="base">for</span> VaultONE
+                Join Our Waitlist 
+                {/* <span className="base">for</span> VaultONE */}
               </h3>
               <p className="grey base">
                 VaultONE is our maiden voyage, granting vault members a host of

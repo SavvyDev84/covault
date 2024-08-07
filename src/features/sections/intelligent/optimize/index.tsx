@@ -39,7 +39,7 @@ export const OptimizeSection = () => {
 
                   <Button
                     onClick={handleContact}
-                    title="Start Staking"
+                    title="Staking Vaults Coming Soon"
                     mode="dark"
                     type="secondary"
                     className={S.btn}

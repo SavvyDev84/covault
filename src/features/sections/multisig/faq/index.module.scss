@@ -70,13 +70,13 @@
           height: 100%;
           position: absolute;
           left: 0;
-          bottom: -150px;
+          bottom: -100px;
           object-position: bottom;
 
           @include G.breakpoint("sm") {
             object-position: top;
-            object-fit: cover;
-            bottom: -60px;
+            object-fit: contain;
+            bottom: -70px;
           }
         }
       }

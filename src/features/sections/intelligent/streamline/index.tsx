@@ -1,11 +1,7 @@
-import { Button } from "@features/ui/button";
 import S from "./index.module.scss";
 import Asset from "@assets/intelligent/asset.png";
 
 export const StreamlineSection = () => {
-  function handleContact(): void {
-    throw new Error("Function not implemented.");
-  }
 
   return (
     <>
@@ -75,7 +71,7 @@ export const StreamlineSection = () => {
               </div>
 
             </div>
-            <div style={{ display: "flex", marginLeft: "16px", marginTop: "70px", justifyContent: "center", alignItems: "center" }}>
+            {/* <div style={{ display: "flex", marginLeft: "16px", marginTop: "70px", justifyContent: "center", alignItems: "center" }}>
               <Button
                 onClick={handleContact}
                 title="Optimize Rewards & yields"
@@ -85,7 +81,7 @@ export const StreamlineSection = () => {
               />
 
 
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
