@@ -23,9 +23,9 @@ export const FinanceSection = () => {
             <div className={S.subTitle} style={{ display: "flex", flexDirection: "row", WebkitJustifyContent: "space-between", width: "100%", alignItems: "center" }}>
               <div>
                 <h3 className="black xxl">
-                  Collaborative <span className="semi-bold">Finance</span>
+                <span className="semi-bold"> Facilitate</span> Collective Investments
                   <br></br>
-                  <span className="semi-bold">with{" "}</span>Syndicate Vault
+                  <span className="semi-bold">with{" "}</span>a Syndicate Vault
                 </h3>
               </div>
               <div style={{cursor:"pointer"}}>
