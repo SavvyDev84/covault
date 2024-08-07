@@ -25,7 +25,7 @@ export const FinanceSection = () => {
                 <h3 className="black xxl">
                   Collaborative <span className="semi-bold">Finance</span>
                   <br></br>
-                  <span className="semi-bold">with</span>Syndicate Vault
+                  <span className="semi-bold">with{" "}</span>Syndicate Vault
                 </h3>
               </div>
               <div style={{cursor:"pointer"}}>
