@@ -21,32 +21,35 @@ export const OptimizeSection = () => {
 
                   <div className={S.title}>
                     <h1>
-                      <span className="black xxl semi-bold">Optimize</span>{" "}
-                      <span className="grey xxl base ">your staking rewards with</span> 
-                      <span className="black xxl semi-bold">{" "} Intelligent Custody</span>
+                      <span className="black xxl semi-bold">Earn Yields on your
+                        Naitve Assets with Non Custodial Staking Vaults</span>{" "}
+
                     </h1>
                   </div>
 
                   <div className={S.description}>
                     <p className="grey">
-                      Staking should be both rewarding and secure. Covault's Staking Vault
-                      offers non-custodial staking solutions that enchance asset potential and
-                      mitigate risks associated with custodial options. Enperience consistent
-                      rewards and peace of mind with our optimized staking framework,
-                      designed to meet the needs of serious investors.
+                      Staking should be both rewarding and secure.
+
+                      Our <span className="black bold">Staking Vaults</span> offer a <span className="black bold">non-custodial</span> solution that opens the door to advanced
+                      <span className="black bold">DeFi workflows.</span>
+                      Tap into high <span className="black bold">yield</span> opportunites easily and maximize returns securely
+                      <span className="black bold">without compromising custody</span>.
                     </p>
                   </div>
 
-                  <Button
-                    onClick={handleContact}
-                    title="Staking Vaults Coming Soon"
-                    mode="dark"
-                    type="secondary"
-                    className={S.btn}
-                  />
+                  <div style={{ marginBottom: "50px" }}>
+                    <Button
+                      onClick={handleContact}
+                      title="Staking Vaults Coming Soon"
+                      mode="dark"
+                      type="secondary"
+                      className={S.btn}
+                    />
+                  </div>
 
                 </div>
-                
+
               </div>
 
               <div className={S.image}>
@@ -55,70 +58,7 @@ export const OptimizeSection = () => {
 
             </div>
           </div>
-          <div className={S.position}>
-            <div className={S.border} >
-
-              <div className={S.image}>
-                <div className={S.title}>
-                  <h1>
-                    <span className="black xxl semi-bold">Secure</span>
-                    <span className="grey xxl base semi-bold">{" "}transactions
-                      <br></br>with</span>
-                    <span className="black xxl semi-bold">{" "}Escrow Vaults</span>
-                  </h1>
-                  <div style={{ paddingTop: "24px" }}>
-                    <p className="grey" style={{ fontSize: "20px" }}>
-                      Ensure your digital asset transactoins are safe and transparent.<br></br>
-                      Covault's Escrow Vault provides a trustless system that eliminates<br></br>
-                      thrid-party risks and guarantees protection for all parties involved.
-                    </p>
-                  </div>
-                </div>
-
-              </div>
-              <div className={S.main}>
-                <div className={S.content}>
-                  <div className={S.description} >
-                    <div style={{overflowY:"auto", scrollbarWidth:"none", height:"150px"}}>
-                      <div className={clsx(S.card, S.active)} style={{padding:"15px",marginBottom:"20px" ,border:"1px grey solid", borderRadius:"2%"}}>
-                        <div className="bold"style={{fontSize:"24px"}}>1</div>
-                        <p className="base sm" style={{fontSize:"20px"}}>
-                          <span className="base sm bold" style={{fontSize:"20px"}}>protect Your Transactions</span>
-                          <br />
-                          <span className="sm" style={{fontSize:"20px"}}>
-                            Connect with a network of investors and stakeholders eager
-                            to pool resources and share opportunities.
-                          </span>
-                        </p>
-                      </div>
-                      <div className={clsx(S.card, S.active)} style={{padding:"15px",border:"1px grey solid", borderRadius:"2%",marginBottom:"20px"}}>
-                        <div className="bold" style={{fontSize:"24px"}}>2</div>
-                        <p className="base sm">
-                          <span className="base sm bold" style={{fontSize:"20px"}}>Eliminate Third-party Risks</span>
-                          <br />
-                          <span className="sm" style={{fontSize:"20px"}}>
-                            Connect with a network of investors and stakeholders eager
-                            to pool resources and share opportunities.
-                          </span>
-                        </p>
-                      </div>
-                      <div className={clsx(S.card, S.active)} style={{padding:"15px",border:"1px grey solid", borderRadius:"2%",}}>
-                        <div className="bold" style={{fontSize:"24px"}}>3</div>
-                        <p className="base sm">
-                          <span className="base sm bold" style={{fontSize:"20px"}}>Ensure Transparency</span>
-                          <br />
-                          <span className="sm" style={{fontSize:"20px"}}>
-                          Our intelligent custody approach guarantees transparency and protection, giving you peace of mind in every transaction.
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
+          
         </div>
       </section>
     </>

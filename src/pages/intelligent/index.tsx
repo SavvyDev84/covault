@@ -5,7 +5,8 @@ import {
   OptimizeSection,
   EcosystemSection,
   FinanceSection,
-  FAQSection
+  FAQSection,
+  EscrowSection
 } from "@features/sections/intelligent";
 import S from "./index.module.scss";
 
@@ -17,6 +18,7 @@ const IntelligentCustody = () => {
       <FinanceSection/>
       <StreamlineSection/>
       <OptimizeSection/>
+      <EscrowSection/>
       <EcosystemSection/>
       <FAQSection/>
     </div>
