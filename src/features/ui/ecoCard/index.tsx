@@ -9,7 +9,7 @@ export const EcosystemCard: FC<IBenefitProps> = (data) => {
         {data.icon}
         <div className="">
           <p className="white bold">{data.title}</p>
-          <p className="grey base">{data.content}</p>
+          <p className="grey base xxl">{data.content}</p>
         </div>
       </div>
       <div className={S.hover}>

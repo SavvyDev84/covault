@@ -7,15 +7,15 @@
   border: 1px solid var(--border);
 
   p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 120%;
 
     @include G.breakpoint("md") {
-      font-size: 14px;
+      font-size: 18px;
     }
 
     @include G.breakpoint("sm") {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 

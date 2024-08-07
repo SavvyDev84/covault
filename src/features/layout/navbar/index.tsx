@@ -4,10 +4,10 @@ import S from "./index.module.scss";
 import { Button } from "@features/ui";
 
 const links = [
-  { title: "About us", path: "#about_section" },
-  { title: "Waitlist", path: "#waitlist_section" },
-  { title: "Features", path: "#features_section" },
-  { title: "FAQ", path: "#faq_section" },
+  { title: "Home", path: "/" },
+  { title: "Native Multisig", path: "/multi-sig" },
+  { title: "Syndicate Vault", path: "/syndicate-vault" },
+  { title: "Covault Protocol", path: "/covault-protocol" },
 ];
 
 interface IProps {
