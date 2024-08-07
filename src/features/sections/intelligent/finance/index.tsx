@@ -30,7 +30,7 @@ export const FinanceSection = () => {
               </div>
               <div style={{cursor:"pointer"}}>
                 <Button
-                  title="Explore Syndicate Vault"
+                  title="Syndicate Vault"
                   mode="dark"
                   type="primary"
                   onClick={handleClick}

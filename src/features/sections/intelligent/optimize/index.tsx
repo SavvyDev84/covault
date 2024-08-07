@@ -91,7 +91,7 @@ export const OptimizeSection = () => {
                           </span>
                         </p>
                       </div>
-                      <div className={clsx(S.card, S.active)} style={{padding:"15px",border:"1px grey solid", borderRadius:"2%",}}>
+                      <div className={clsx(S.card, S.active)} style={{padding:"15px",border:"1px grey solid", borderRadius:"2%",marginBottom:"20px"}}>
                         <div className="bold" style={{fontSize:"24px"}}>2</div>
                         <p className="base sm">
                           <span className="base sm bold" style={{fontSize:"20px"}}>Eliminate Third-party Risks</span>
@@ -99,6 +99,16 @@ export const OptimizeSection = () => {
                           <span className="sm" style={{fontSize:"20px"}}>
                             Connect with a network of investors and stakeholders eager
                             to pool resources and share opportunities.
+                          </span>
+                        </p>
+                      </div>
+                      <div className={clsx(S.card, S.active)} style={{padding:"15px",border:"1px grey solid", borderRadius:"2%",}}>
+                        <div className="bold" style={{fontSize:"24px"}}>3</div>
+                        <p className="base sm">
+                          <span className="base sm bold" style={{fontSize:"20px"}}>Ensure Transparency</span>
+                          <br />
+                          <span className="sm" style={{fontSize:"20px"}}>
+                          Our intelligent custody approach guarantees transparency and protection, giving you peace of mind in every transaction.
                           </span>
                         </p>
                       </div>

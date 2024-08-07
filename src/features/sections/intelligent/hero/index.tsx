@@ -70,15 +70,16 @@ export const HeroSection = () => {
 
             <div className={S.info}  >
               <h1 style={{ direction: "rtl" }}>
-                Transforming <br></br>Intellectual<br></br><span>Property Markets</span>
+                Build RWA<br></br> Marketplaces on<br></br><span>Covault Protocol</span>
               </h1>
               <p style={{ direction: "rtl" }}>
-                Discover how Covault's custody tools are revolutionizing IP management and paving the way for new RWA markets on Bitcoin Layer 1.
+                Our modular architecture supports builders in creating efficient marketplaces for financial instruments,
+                IP, future earning contracts and more.
               </p>
               <div style={{ direction: "rtl" }}>
                 <Button
                   onClick={handleClick}
-                  title="Learn More About RWA"
+                  title="Syndicate Vault"
                   mode="dark"
                   type="primary"
                 />
