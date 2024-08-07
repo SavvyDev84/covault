@@ -11,7 +11,7 @@ export const StreamlineSection = () => {
             <div>
 
               <div className={S.border}>
-                <div className={S.main}>
+                <div className={S.main} style={{display:"flex", justifyContent:"center", alignItems:"center", gap:"50px"}}>
                   <div className={S.image}>
                     <img src={Asset} alt="Asset" />
                   </div>
@@ -20,20 +20,18 @@ export const StreamlineSection = () => {
 
                     <div className={S.title}>
                       <h1>
-                        <span className="white xxl semi-bold">Streamline</span>{" "}
-                        <span className="grey xxl base semi-bold">your rewards</span>
+                        <span className="grey xxl ">Streamline</span>{" "}
+                        <span className="white xxl base semi-bold">Rewards Distribution</span>
                         <br></br>
-                        <span className="grey xxl base semi-bold"> with</span>{" "}
-                        <span className="white xxl semi-bold">Airdrop Vault</span>
+                        <span className="grey xxl base"> with Airdrop Vault</span>
                       </h1>
                     </div>
 
                     <div className={S.description}>
                       <p className="grey">
-                        Distributing rewards can be time-consuming. Covaults Airdrop Vault simplifies
-                        this with batch send and claim options, engaing your community easily. It
-                        addresses inefficienties, saving time and resources, while ensuring quick and
-                        secure reward distribution.
+                      Our Airdrop Vaults simplify the process of distributing rewards, 
+                      saving time and ensuring quick and secure distribution with 
+                      either batch send or custom claim functionality.  
                       </p>
                     </div>
                   </div>
@@ -44,25 +42,24 @@ export const StreamlineSection = () => {
 
               <div className={S.border} >
 
-                <div className={S.main1}>
+                <div className={S.main1} style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
 
-                  <div className={S.title} style={{ marginLeft: "16px" }}>
+                  <div className={S.title}>
                     <h1>
-                      <span className="white xxl semi-bold">Intelligent Yield</span>{" "}
-                      <span className="grey xxl base semi-bold">generation</span>
+                      <span className="grey xxl base semi-bold">Airdrop Vault also provide a way to</span>
                       <br></br>
-                      <span className="grey xxl base semi-bold"> with</span>{" "}
-                      <span className="white xxl semi-bold">Yield Vaults</span>
+                      <span className="white xxl base semi-bold">sell a basket of <br></br>future tokens.</span>
                     </h1>
                   </div>
 
                   <div className={S.content}>
                     <div className={S.description}>
-                      <p className="grey">
-                        Traditional yields options fall short. Covault's Yield Vaults
-                        offer intelligent, non-custodial solutions for advanced DeFi
-                        workflows. Tap into high yield opportunites and maximize returns securely,
-                        ensuring investment growth without compromising safety.
+                      <p className="grey" style={{display:"flex", justifyContent:"center"}}>
+                      Airdrop vaults empower launchpads, accelerators, 
+                      and other ecosystems, to package a series of tokens 
+                      (or future tokens for a set period of time), 
+                      and sell the rights to receive this curated basket of assets 
+                      through a single airdrop vault member token.
                       </p>
                     </div>
                   </div>
