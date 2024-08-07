@@ -8,11 +8,12 @@ export const PotentialSection = () => {
       <div className={S.wrapper}>
         <div className={S.main}>
           <div className={S.info}>
-            <h1>
-              <span className="grey base semi-bold">Native Multisig</span>
-              <img src={KeyIcon} width={33} height={39} alt="key" />
-              <span className="white semi-bold">for Layer1 Bitcoin</span>
-            </h1>
+
+            <div className={S.potential} style={{ display: "flex", flexDirection: "row" }}>
+              <div style={{ display: "flex" }}><h1 className="white base semi-bold">Native Multisig</h1></div>
+              <div style={{ display: "flex", marginLeft: "auto", alignItems: "center" }}><img src={KeyIcon} width={33} height={39} alt="key" /></div>
+              <div style={{ display: "flex" }}><h1 className="white semi-bold" style={{ marginLeft: "auto" }}>for Layer1 Bitcoin</h1></div>
+            </div>
             <div className={S.description}>
               <p className="white lg">
                 Unlock the power of multisig technology for Layer1 Bitcoin
@@ -20,6 +21,7 @@ export const PotentialSection = () => {
                 reliability.
               </p>
             </div>
+
           </div>
         </div>
       </div>

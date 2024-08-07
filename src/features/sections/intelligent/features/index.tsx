@@ -17,25 +17,33 @@ export const FeatureSection = () => {
                   <div>
                     <div className={S.title} style={{ marginBottom: "20px" }}>
                       <h1>
-                        <img src={KeyIcon} width={33} height={39} alt="key" />{" "}
-                        <span className="white xxl semi-bold">Unleash intelligent</span>{" "}
-                        <span className="grey xxl base semi-bold">custody</span>
+                        <img src={KeyIcon} width={33} height={39} alt="key" />
+                        <span className="grey xxl">Unlock</span>{" "}
+                        <span className="white xxl semi-bold">Intelligent Custody</span>{" "}
+                        <span className="grey xxl base semi-bold"></span>
                         <br></br>
-                        <span className="grey xxl base semi-bold">with</span>{" "}
+                        <span className="grey xxl base semi-bold">with our</span>{" "}
 
                         <img src={UnionIcon} width={33} height={39} alt="union" />{" "}
 
-                        <span className="white xxl semi-bold">Taproot Multisig</span>
+                        <span className="white xxl semi-bold">Native Multisig</span>
 
                       </h1>
                     </div>
-                    <div className={S.description} style={{ marginBottom: "20px" }}>
+                    <div className={S.description} style={{ display:"flex",flexDirection:"column", marginBottom: "20px", gap:"20px" }}>
                       <p className="grey">
-                        <span className="white">Covault's Intelligent Custody Framework</span> uses Taproot on Bitcoin Layer 1.
-                        Our advanced multisig technology provides <span className="white">robust security</span>, eliminating single points of failure and simplifying protocols.
-                        Enjoy unparalleled protection and peace of mind, knowing your <span className="white">Bitcoin native assets are safe</span>.
+                        <span className="white">Covault's Intelligent Custody Framework</span> gives users the flexibility to deploy either their multisig as
+                         <span className="white"> Native Segwit</span> or <span className="white">Taproot on Bitcoin Layer 1.</span>.
+                      </p>
+
+                      <p className="grey">
+                        <span className="white">Multisig</span> 
+                        provides robust security, eliminating single points of failure and simplifying protocols. 
+                        Enjoy unparalleled protection and peace of mind, knowing your 
+                         <span className="white"> Bitcoin native assets are safe.</span>
 
                       </p>
+
 
                     </div>
                   </div>
