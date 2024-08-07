@@ -1,7 +1,6 @@
 import { Button } from "@features/ui";
 import S from "./index.module.scss";
 import Door from "@assets/intelligent/door.png";
-import { clsx } from "clsx";
 
 export const OptimizeSection = () => {
   function handleContact(): void {
