@@ -2,10 +2,14 @@ import { ECOSYSTEM } from "@utils/dataUtils";
 import S from "./index.module.scss";
 import { EcosystemCard } from "@features/ui/ecoCard";
 import { Button } from "@features/ui";
+import { useNavigate } from "react-router-dom";
 // import Eco from "@assets/eco.png";
 
 export const EcosystemSection = () => {
-  const handleClick = () => {};
+  const navigate=useNavigate();
+  const  handleClick = () => {
+    navigate("/")
+  };
 
   return (
     <section className={S.body}>

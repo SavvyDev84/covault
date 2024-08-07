@@ -57,7 +57,7 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          <div className={S.hero} style={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
+          <div className={S.hero} >
 
             <div className={S.diamond}>
               <img src={diamond1} alt="diamond1" />
