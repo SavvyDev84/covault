@@ -1,14 +1,17 @@
 import clsx from "clsx";
 import S from "./index.module.scss";
 import { Button } from "@features/ui";
+import { useNavigate } from "react-router-dom";
 
 
 export const FinanceSection = () => {
 
+  const navigate = useNavigate()
 
-  function handleClick(): void {
-    throw new Error("Function not implemented.");
+  const handleClick = () => {
+    navigate("/syndicate-vault")
   }
+
 
   return (
     <>
@@ -17,7 +20,7 @@ export const FinanceSection = () => {
         <div className={S.wrapper}>
           <div className={S.content}>
 
-            <div className={S.subTitle} style={{ display: "flex", flexDirection: "row", WebkitJustifyContent:"space-between", width:"100%", alignItems:"center" }}>
+            <div className={S.subTitle} style={{ display: "flex", flexDirection: "row", WebkitJustifyContent: "space-between", width: "100%", alignItems: "center" }}>
               <div>
                 <h3 className="black xxl">
                   Collaborative <span className="semi-bold">Finance</span>
@@ -25,18 +28,17 @@ export const FinanceSection = () => {
                   <span className="semi-bold">with</span>Syndicate Vault
                 </h3>
               </div>
-              <div>
+              <div style={{cursor:"pointer"}}>
                 <Button
                   title="Explore Syndicate Vault"
                   mode="dark"
                   type="primary"
                   onClick={handleClick}
                 />
+                </div>
+            </div>
 
-              </div>
-           </div>
-
-            <div className={S.features} style={{width:"100%",justifyContent:"space-between"}}>
+            <div className={S.features} style={{ width: "100%", justifyContent: "space-between" }}>
 
               <div className={clsx(S.card, S.active)}>
                 <div>1</div>

@@ -1,7 +1,7 @@
 import { FAQItem } from "@features/ui";
 import S from "./index.module.scss";
 import { FAQ_DATA } from "@utils/dataUtils";
-import faq from "@assets/faq.png";
+import faq from "@assets/syndicate/removal.png";
 
 export const FAQSection = () => {
   return (
@@ -10,7 +10,7 @@ export const FAQSection = () => {
         <div className={S.main}>
           <div className={S.banner}>
             <h3 className="grey semi-bold xxl">
-              Your questions answered:{" "}
+              Your questions answered:<br></br>
               <span className="black">All about Covault</span>
             </h3>
             <img src={faq} alt="" />

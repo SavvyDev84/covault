@@ -70,7 +70,7 @@ const Header = () => {
                 { value: "/", label: "Home" },
                 { value: "/covault-protocol", label: "Covault Protocol" },
                 { value: "/multi-sig", label: "Native Multisig " },
-                { value: "/syndicate-vault", label: "Syndicate Vault " },
+                { value: "/syndicate-vault", label: "Syndicate Vault" },
               ]}
               root={S.root}
               mask={S.mask}

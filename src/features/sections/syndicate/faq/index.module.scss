@@ -75,8 +75,8 @@
 
           @include G.breakpoint("sm") {
             object-position: top;
-            object-fit: cover;
-            bottom: -60px;
+            object-fit: contain;
+            bottom: -70px;
           }
         }
       }

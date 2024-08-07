@@ -7,9 +7,11 @@ import diamond from "@assets/intelligent/hero.png";
 
 import diamond1 from "@assets/intelligent/hero1.png";
 import { HiOutlineArrowLongDown } from "react-icons/hi2";
+import { useNavigate } from "react-router-dom";
 
 export const HeroSection = () => {
 
+   const navigate=useNavigate(); 
   const [openModal, setOpenModal] = useState<boolean>(false);
   const [verificationCodeInput, setVerificationCodeInput] = useState(""); // For the input
   const [active, setActive] = useState<boolean>(false)
@@ -27,6 +29,9 @@ export const HeroSection = () => {
     throw new Error("Function not implemented.");
   }
 
+  const handleClick=()=>{
+    navigate("covault-protocol");
+  }
   return (
     <section id="about_section" className={S.body}>
       <div className={S.wrapper}>
@@ -72,7 +77,7 @@ export const HeroSection = () => {
               </p>
               <div style={{ direction: "rtl" }}>
                 <Button
-                  onClick={handleContact}
+                  onClick={handleClick}
                   title="Learn More About RWA"
                   mode="dark"
                   type="primary"
