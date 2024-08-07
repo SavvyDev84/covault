@@ -28,7 +28,7 @@ const Footer = () => {
           <div className={S.footer}>
             <div className={S.logo}>
               <img src="./logo.png" alt="logo" />
-              <p className="yellow">@ Covault {new Date().getFullYear()}</p>
+              <p className="yellow">@ Covault Protocol {new Date().getFullYear()}</p>
             </div>
             <div className={S.links}>
               {linkList.map((item, index) => (

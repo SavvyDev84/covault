@@ -23,9 +23,10 @@ export const EcosystemSection = () => {
             ))}
           </div>
           <div className={S.banner}>
-            <h3 className="grey xxl semi-bold">
-               <span className="white">Build advanced</span><br></br>economies with{" "}
-              <span className="white">Intelligent Custody</span>
+            <h3 className="grey xxl">
+               <span className="white semi-bold">Build advanced</span><br></br>
+               economies with{" "}
+              <span className="white semi-bold">Intelligent Custody</span>
             </h3>
             <p className="grey base">
               Covault Protocol offers sophisticated solutions for complex token economies. Our modular
@@ -40,7 +41,7 @@ export const EcosystemSection = () => {
               <Button
                 title="Try on Testnet"
                 mode="dark"
-                type="Secondary"
+                type="primary"
                 onClick={handleClick}
               />
             </div>

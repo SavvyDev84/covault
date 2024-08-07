@@ -22,8 +22,8 @@ export const OptimizeSection = () => {
                   <div className={S.title}>
                     <h1>
                       <span className="black xxl semi-bold">Optimize</span>{" "}
-                      <span className="grey xxl base semi-bold">your staking rewards</span>
-                      <span className="black xxl semi-bold">{" "}Intelligent Custody</span>
+                      <span className="grey xxl base ">your staking rewards with</span> 
+                      <span className="black xxl semi-bold">{" "} Intelligent Custody</span>
                     </h1>
                   </div>
 
