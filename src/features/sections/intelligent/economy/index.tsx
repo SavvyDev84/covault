@@ -24,6 +24,7 @@ export const EcosystemSection = () => {
                 hoverIcon={data.hoverIcon}
                 title={data.title}
                 content={data.content}
+                
               />
             ))}
           </div>
@@ -33,15 +34,13 @@ export const EcosystemSection = () => {
                economies with{" "}
               <span className="white semi-bold">Intelligent Custody</span>
             </h3>
-            <p className="grey base">
+            <p className="grey base" style={{fontSize:"19px"}}>
+              
               Covault Protocol offers sophisticated solutions for complex token economies. Our modular
               architecture integrates vaults, runes, and automated community rewards to streamline operations and optimized
               asset management.
             </p>
-            {/* <p className="italic sm light-grey light">
-              *THIS IS TARGETED to builders who want to build on COVAULT
-              PROTOCOL
-            </p> */}
+            
             <div className="">
               <Button
                 title="Try on Testnet"
