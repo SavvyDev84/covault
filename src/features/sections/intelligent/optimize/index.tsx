@@ -31,9 +31,9 @@ export const OptimizeSection = () => {
                       Staking should be both rewarding and secure.
 
                       Our <span className="black bold">Staking Vaults</span> offer a <span className="black bold">non-custodial</span> solution that opens the door to advanced
-                      <span className="black bold">DeFi workflows.</span>
+                      <span className="black bold"> DeFi workflows.</span>
                       Tap into high <span className="black bold">yield</span> opportunites easily and maximize returns securely
-                      <span className="black bold">without compromising custody</span>.
+                      <span className="black bold"> without compromising custody</span>.
                     </p>
                   </div>
 
