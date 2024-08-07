@@ -67,6 +67,7 @@ const Header = () => {
               activeColor="#FEE407"
               color="#fff"
               dataLists={[
+                { value: "/", label: "Home" },
                 { value: "/covault-protocol", label: "Covault Protocol" },
                 { value: "/multi-sig", label: "Native Multisig " },
                 { value: "/syndicate-vault", label: "Syndicated " },
