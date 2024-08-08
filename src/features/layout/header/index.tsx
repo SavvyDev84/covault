@@ -22,7 +22,7 @@ const Header = () => {
   const handleContact = () => { };
 
   const handleGoWaitlist = () => {
-    navigate("#waitlist_section");
+    navigate("/covault-protocol#waitlist_section");
   };
 
   const handleGoHero = () => {
